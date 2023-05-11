@@ -1,0 +1,347 @@
+@font-face {
+    font-family: "aurore";
+    src: url(./static/font/La_Belle_Aurore/LaBelleAurore-Regular.ttf)format(truetype);
+}
+
+@font-face {
+    font-family: "karla";
+    src: url(./static/font/Karla/Karla-VariableFont_wght.ttf)format(truetype);
+}
+
+@font-face {
+    font-family: "amita";
+    src: url(./static/font/Amita/Amita-Bold.ttf)format(truetype);
+}
+
+@font-face {
+    font-family: "regulara";
+    src: url(./static/font/Amita/Amita-Regular.ttf)format(truetype);
+}
+@font-face {
+    font-family: "italic";
+    src: url(./static/font/Karla/Karla-Italic-VariableFont_wght.ttf)format(truetype);
+}
+/* je me suis rendu compte après que j'aurais plus optimisé mon code en mettant plus de class*/
+body {
+    background-color: #1c150c;
+    margin: 0;
+}
+
+#rightul {
+    color: #faf5ee;
+    font-family: "regulara";
+    list-style: none;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+#leftul {
+    color: #faf5ee;
+    font-family: "regulara";
+    list-style: none;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+#contheader {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 70px;
+}
+
+#rightheader {
+    width: 100%;
+    margin-top: 120px;
+}
+
+#leftheader {
+    width: 100%;
+    margin-top: 120px;
+}
+
+#deconav1 {
+    width: 100%;
+    height: 3px;
+    background-color: #da984c;
+    position: relative;
+    bottom: 16px;
+}
+
+#deconav2 {
+    width: 100%;
+    height: 3px;
+    background-color: #da984c;
+    position: relative;
+    bottom: 16px;
+}
+
+#nostor {
+    color: #99662b;
+    font-size: 32px;
+    font-family: "regulara";
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 170px;
+    margin-top: 150px;
+    margin-bottom: 0px;
+    font-weight: lighter;
+}
+
+#bgimg1 {
+    background-image: url(./static/image/img\ nos\ torrefacteur.png);
+    width: 100%;
+    height: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#textsec1 {
+    width: 100%;
+    height: 800px;
+    position: relative;
+}
+
+#divtextesec1 {
+    font-size: 24px;
+    font-family: "karla";
+    color: #faf5ee;
+    width: 80%;
+    margin-left: 200px;
+    /*background-image: url(./static/image/grains\ grains\ cafe\ left.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 400px;
+    background-position:right ;*/
+}
+
+#tp1 {
+    margin-bottom: 75px;
+    margin-top: 130px;
+}
+
+.sanstorr {
+    font-weight: bold;
+}
+
+#tp2 {
+    margin-bottom: 40px;
+}
+
+#tp3 {
+    margin: 0;
+}
+
+#tp4 {
+    margin: 0;
+}
+
+.pretp0 {
+    margin: 0;
+    font-size: 24px;
+    font-family: "karla";
+    color: #faf5ee;
+}
+
+/*#bgcaf11{
+    width: 100%;
+    height: 500px;
+    background-image: url(./static/image/grains\ grains\ cafe\ left.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}*/
+#bgcaf111 {
+    position: absolute;
+}
+
+#bgcaf11 {
+    position: absolute;
+    bottom: 35px;
+    left: 1040px;
+    height: 400px;
+}
+
+#contsignetcit {
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+
+#citation {
+    font-family: "aurore";
+    font-size: 40px;
+    color: #faf5ee;
+    text-align: center;
+}
+
+#colorsign11 {
+    color: #e9bd76;
+    font-family: "aurore";
+    font-size: 40px;
+}
+
+#colorsign1 {
+    color: #e9bd76;
+    font-family: "aurore";
+    font-size: 40px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 210px;
+    position: relative;
+    bottom: 60px;
+    font-weight: lighter;
+}
+
+#signimg {
+    padding-left: 1140px;
+    position: relative;
+    bottom: 125px;
+}
+
+#cafblan {
+    position: absolute;
+    right: 1315px;
+    top: 80px;
+}
+
+#noscafgrain {
+    color: #de9848;
+    font-size: 32px;
+    font-family: "regulara";
+    font-weight: lighter;
+    margin-top: 110px;
+    margin-left: 170px;
+}
+
+#bgimggg1 {
+    width: 100%;
+    height: 400px;
+    background-image: url(./static/image/img\ Nos\ cafes\ en\ grains.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#texteeuh {
+    width: 100%;
+    margin-top: 120px;
+}
+
+#texteehh {
+    font-size: 24px;
+    font-family: "karla";
+    color: #faf5ee;
+    width: 80%;
+    margin: auto;
+
+}
+
+.renseign {
+    font-size: 20px;
+    margin-top: 60px;
+    font-family: "italic";
+}
+
+#tonus {
+    margin-bottom: -30px;
+}
+
+#tonuus {
+    margin: 0;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+#cafealenver {
+    height: 135px;
+}
+
+#cafealenveree {
+    position: relative;
+    bottom: 200px;
+    left: 60px;
+    height: 350px;
+}
+
+#frais{
+    padding-right: 35px;
+}
+#fauxbtn{
+    padding-left: 900px;
+}
+#noscafmoul{
+    color: #e9bd76;
+    font-family: "regulara";
+    font-size: 32px;
+    font-weight: lighter;
+    margin-top: 0;
+    padding-left: 1200px;
+}
+#bgcafmoul{
+    width: 100%;
+    height: 400px;
+    background-image: url(./static/image/img\ Nos\ cafe\ moulus.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#texto{
+    width: 100%;
+}
+#textoo{
+    font-size: 24px;
+    font-family: "karla";
+    color: #faf5ee;
+    width: 80%;
+    margin: auto;
+}
+#padddd{
+    padding-right: 65px;
+    padding-top: 30px;
+}
+.papad{
+    margin-bottom: 0;
+}
+.ici0{
+margin: 0;
+}
+#fauxbtnnn{
+    padding-left: 960px;
+}
+#feuilleor{
+    padding-left: 1205px;
+    padding-top: 100px;
+}
+#notre{
+    color:#efd495;
+    font-size: 32px;
+    font-family: "regulara";
+    font-weight: lighter;
+    padding-left: 150px;
+}
+#bgimgnotre{
+    width: 100%;
+    height: 400px;
+    background-image: url(./static/image/img\ Notre\ histoire.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.test{
+    font-size: 24px;
+    font-family: "karla";
+    color: #faf5ee;
+}
+#textenotre{
+    width: 100%;
+}
+#tnotre{
+    width: 80%;
+    margin: auto;
+}
+#graaain{
+    padding-left: 970px;
+    position: relative;
+    bottom: 100px;
+}
